@@ -1,0 +1,45 @@
+.shoes_input {
+    height: 115px;
+
+    p {
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    div {
+        position: relative;
+
+        .eye {
+            display: block;
+            position: absolute;
+            right: 14px;
+            top: 13px;
+        }
+
+        input {
+            padding: 16px 12px 14px 14px;
+            width: 100%;
+            background: rgba(33, 33, 33, 0.08);
+            border: none;
+            border-radius: 4px 4px 0px 0px;
+        }
+    }
+
+    small {
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        text-align: left;
+        color: rgba(245, 14, 14, 1);
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+}

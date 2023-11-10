@@ -1,0 +1,65 @@
+
+.size-container,.button-quantity{
+    display: flex;
+}
+.button-size{
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    background-color:rgb(40, 70, 235);
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.button-size:active{
+    background-color: white;
+}
+.size a{
+    font-size: 2rem;
+    color: black;
+}
+.detail{
+    margin: auto;
+}
+.product-img-div{
+    width: 45rem;
+    height: 35rem;
+    top: 58px;
+    left: 64px;
+    background: #ebe9e9;
+}
+.product-img{
+    margin: auto;
+}
+.realate-product{
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+.button-add:hover,.button-add:active{
+    background: #f83434;
+    transition: 0.4s;
+}
+.button-add{
+    font-size: 2rem;
+    color: azure;
+    background-color: #ee4d2d;
+    padding: 1.5rem 2.2rem;
+    cursor: pointer;
+    
+}
+.minus,.plus{
+    background-color: rgb(40, 70, 235);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+}
+.content{
+    margin-bottom: 3rem;
+}
+.button-quantity{
+    margin: 20px 0;
+}

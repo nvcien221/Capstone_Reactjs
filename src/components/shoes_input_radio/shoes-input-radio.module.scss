@@ -1,0 +1,63 @@
+.shoes_input_radio {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+
+    .title {
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.6);
+        margin-right: 20px;
+        padding-top: 10px;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    .bg-circle {
+        width: 40px !important;
+        height: 40px !important;
+        border: none;
+        border-radius: 50%;
+        background: rgba(98, 0, 238, 0.04);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .circle {
+        width: 20px  !important;
+        height: 20px !important;
+        border: 2px solid rgba(98, 0, 238, 1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .check {
+        width: 10px !important;
+        height: 10px !important;
+        border: none;
+        border-radius: 50%;
+        background-color: rgba(98, 0, 238, 1);
+        display: none;
+    }
+
+    input[type="radio"]:checked+label .check {
+        display: block;
+    }
+}

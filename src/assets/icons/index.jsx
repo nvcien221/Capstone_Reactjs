@@ -1,0 +1,6 @@
+export * from './carts.icon'
+export * from './search.icon'
+export * from './next.icon'
+export * from './previous.icon'
+export * from './heart.icon'
+export * from './heart-red.icon'

@@ -1,0 +1,62 @@
+.cart{
+    margin: 5rem;
+}
+table {
+    border-collapse: collapse;
+
+}
+.cart-title{
+    background-color: rgb(40, 70, 235);
+}
+th{
+    color: black;
+    padding: 10px;
+}
+td{
+    border: 0.2rem solid rgb(40, 70, 235);
+    text-align: center;
+}
+td:nth-child(1){
+    width: 30rem;
+}
+td:nth-child(2),td:nth-child(5){
+    width: 20rem;
+}
+td img{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin: auto;
+}
+.button-delete{
+    font-size: 1.4rem;
+    color: azure;
+    padding: 1rem 2rem;
+    background:  #f83434;
+    cursor: pointer;
+}
+.minus,.plus{
+    background-color: rgb(40, 70, 235);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.minus:active,.plus:active{
+    background-color: rgb(255, 0, 0);
+}
+.cart-quantity{
+    margin: 0 1rem;
+}
+.button-agree{
+    font-size: 2rem;
+    color: azure;
+    padding: 1rem 7rem;
+    background: red;
+    margin-left: 50rem;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+ 
+  

@@ -1,0 +1,52 @@
+.header{
+    height: 7rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2.5rem;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.icon-search{
+    display: flex;
+    align-items: center;
+}
+.icon-cart{
+    display: flex;
+    align-items: center;
+}
+.author{
+    gap: 1rem;
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 0 0.4rem;
+    }
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.6rem 2.5rem;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+    }
+    .active{
+        color: red;
+    }
+}
+.icon-cart,.icon-search{
+    cursor: pointer;
+}
+.logout{
+    cursor: pointer;
+}

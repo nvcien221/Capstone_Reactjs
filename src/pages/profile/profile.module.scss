@@ -1,0 +1,197 @@
+.wrap {
+    max-width: 1280px;
+    padding: 50px 0;
+    margin: auto;
+    h2{
+        font-size: 30px;
+        color: #7D0DB1;
+    }
+    .profile-detail {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+
+        .profile-detail__img {
+            width: 30%;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+                height: auto;
+            }
+
+            @media screen and (max-width: 576px) {
+                width: 100%;
+            }
+        }
+
+        .profile-detail__input {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            >div {
+                width: 40%;
+
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                }
+            }
+
+            .form_action {
+                width: 100%;
+                display: flex;
+                flex-direction: row-reverse;
+
+                .form_action__login {
+                    width: 121px;
+                    height: 48px;
+                    border: none;
+                    border-radius: 50px;
+                    font-family: 'Roboto';
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 16px;
+                    letter-spacing: 1.25px;
+                    text-transform: uppercase;
+                    background: rgba(98, 0, 238, 1);
+                    color: rgba(255, 255, 255, 1);
+                    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+                    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+                    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14);
+                }
+            }
+
+            @media screen and (max-width:576px) {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width:576px) {
+            display: block;
+        }
+    }
+
+    .line {
+        border: 1px solid #DEDDDC;
+        margin: 40px 40px 20px 40px;
+    }
+
+    .menu {
+        margin: 10px 40px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38.75px;
+        display: flex;
+
+        .menu-item {
+            padding: 20px;
+            border: 1px solid rgba(222, 221, 220, 1);
+            border-left: none;
+            border-top: none;
+            width: 20%;
+            cursor: pointer;
+
+            &:nth-of-type(1) {
+                border-left: 1px solid rgba(222, 221, 220, 1);
+            }
+
+            &.active {
+                color: rgba(221, 42, 237, 1);
+            }
+
+            @media screen and (max-width: 1200px) {
+                width: 30%;
+            }
+
+            @media screen and (max-width: 992px) {
+                width: 40%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+        }
+    }
+
+    .cart {
+        margin: 20px 40px;
+        padding: 20px 0 0 20px;
+
+        .cart-title {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.4px;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #CB0DC3 0%, #7D0DB1 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            padding: 10px 0;
+        }
+
+        .cart-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24.2px;
+
+            tr {
+                th {
+                    padding: 20px;
+                    text-align: left;
+                    background: rgba(217, 217, 217, 1);
+                    border: none;
+
+                    &:nth-of-type(1) {
+                        width: 10%;
+                        text-align: right;
+                    }
+
+                    &:nth-of-type(2) {
+                        width: 40%;
+                    }
+
+                    &:nth-of-type(4) {
+                        width: 10%;
+                    }
+
+                    &:nth-of-type(5) {
+                        width: 10%;
+                    }
+
+                    &:nth-of-type(6) {
+                        width: 40%;
+                    }
+                }
+
+                td {
+                    padding: 20px;
+                    text-align: left;
+                    border: none;
+                    &:nth-of-type(1) {
+                        text-align: right;
+                    }
+
+                    &:nth-of-type(4) span {
+                        background: rgba(217, 217, 217, 1);
+                        padding: 0;
+                        text-align: center;
+                        padding: 3px 25px;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width:576px) {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
